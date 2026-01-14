@@ -5,7 +5,7 @@ echo " APK Signing (Google Play OK)"
 echo "==============================="
 
 
-read -p "🔍 Enter path to APK file: " APK_INPUT
+read -p " Enter path to APK file: " APK_INPUT
 
 
 APK_BASE=$(basename "$APK_INPUT" .apk)
